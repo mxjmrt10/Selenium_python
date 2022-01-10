@@ -1,0 +1,22 @@
+---Primero instalamos selenium y webdriver manager en powershell
+pip install selenium
+pip install webdriver-manager
+
+---Descargamos los recursos para el navegador
+https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+
+---Copiamos los archivos descargados a una ruta especifica puede ser
+C:\WebDriver\bin\
+
+---Configuramos la variable de entorno del sistema y usuario en la ruta de archivos
+C:\WebDriver\bin\
+
+---Para ver si esta bien configurada abrimos la terminal y ejecutamos
+chromedriver
+msedgedriver
+
+--no debe dar el siguiente mensaje o similar
+Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
